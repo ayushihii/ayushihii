@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="260" viewBox="0 0 1200 260">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#6d28d9"><animate attributeName="stop-color" values="#6d28d9;#db2777;#0ea5e9;#6d28d9" dur="10s" repeatCount="indefinite"/></stop>
+      <stop offset="1" stop-color="#0ea5e9"><animate attributeName="stop-color" values="#0ea5e9;#6d28d9;#db2777;#0ea5e9" dur="10s" repeatCount="indefinite"/></stop>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-50%" width="140%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="1200" height="260" rx="16" fill="url(#bg)"/>
+  <g stroke="#fff" stroke-opacity="0.28" stroke-width="1.5">
+    <line x1="70" y1="60" x2="150" y2="95"/><line x1="70" y1="60" x2="150" y2="165"/>
+    <line x1="70" y1="130" x2="150" y2="95"/><line x1="70" y1="130" x2="150" y2="165"/>
+    <line x1="70" y1="200" x2="150" y2="95"/><line x1="70" y1="200" x2="150" y2="165"/>
+    <line x1="1130" y1="60" x2="1050" y2="95"/><line x1="1130" y1="60" x2="1050" y2="165"/>
+    <line x1="1130" y1="130" x2="1050" y2="95"/><line x1="1130" y1="130" x2="1050" y2="165"/>
+    <line x1="1130" y1="200" x2="1050" y2="95"/><line x1="1130" y1="200" x2="1050" y2="165"/>
+  </g>
+  <g fill="#fff">
+    <circle cx="70" cy="60" r="7"><animate attributeName="opacity" values="1;0.3;1" dur="3s" repeatCount="indefinite"/></circle>
+    <circle cx="70" cy="130" r="7"><animate attributeName="opacity" values="0.3;1;0.3" dur="3s" repeatCount="indefinite"/></circle>
+    <circle cx="70" cy="200" r="7"><animate attributeName="opacity" values="1;0.3;1" dur="3.5s" repeatCount="indefinite"/></circle>
+    <circle cx="150" cy="95" r="9"><animate attributeName="opacity" values="0.4;1;0.4" dur="2.5s" repeatCount="indefinite"/></circle>
+    <circle cx="150" cy="165" r="9"><animate attributeName="opacity" values="1;0.4;1" dur="2.5s" repeatCount="indefinite"/></circle>
+    <circle cx="1130" cy="60" r="7"><animate attributeName="opacity" values="0.3;1;0.3" dur="3s" repeatCount="indefinite"/></circle>
+    <circle cx="1130" cy="130" r="7"><animate attributeName="opacity" values="1;0.3;1" dur="3s" repeatCount="indefinite"/></circle>
+    <circle cx="1130" cy="200" r="7"><animate attributeName="opacity" values="0.3;1;0.3" dur="3.5s" repeatCount="indefinite"/></circle>
+    <circle cx="1050" cy="95" r="9"><animate attributeName="opacity" values="1;0.4;1" dur="2.5s" repeatCount="indefinite"/></circle>
+    <circle cx="1050" cy="165" r="9"><animate attributeName="opacity" values="0.4;1;0.4" dur="2.5s" repeatCount="indefinite"/></circle>
+  </g>
+  <text x="600" y="136" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="68" font-weight="700" fill="#fff" filter="url(#glow)">Ayushi Pandey</text>
+  <text x="600" y="190" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="22" fill="#fff">@ayushihii  |  Math &amp; Computing  |  ML Enthusiast</text>
+</svg>
