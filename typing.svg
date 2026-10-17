@@ -1,12 +1,14 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="800" height="50" viewBox="0 0 800 50">
-<defs>
-<clipPath id="c0"><rect x="162.4" y="0" height="50" width="0"><animate attributeName="width" dur="20s" repeatCount="indefinite" keyTimes="0;0.11;0.21;0.225;1" values="0;475.2;475.2;0;0"/></rect></clipPath>
-<clipPath id="c1"><rect x="155.2" y="0" height="50" width="0"><animate attributeName="width" dur="20s" repeatCount="indefinite" keyTimes="0;0.25;0.36;0.46;0.475;1" values="0;0;489.6;489.6;0;0"/></rect></clipPath>
-<clipPath id="c2"><rect x="191.2" y="0" height="50" width="0"><animate attributeName="width" dur="20s" repeatCount="indefinite" keyTimes="0;0.5;0.61;0.71;0.725;1" values="0;0;417.6;417.6;0;0"/></rect></clipPath>
-<clipPath id="c3"><rect x="176.8" y="0" height="50" width="0"><animate attributeName="width" dur="20s" repeatCount="indefinite" keyTimes="0;0.75;0.86;0.96;0.975;1" values="0;0;446.4;446.4;0;0"/></rect></clipPath>
-</defs>
-<text x="400" y="32" text-anchor="middle" textLength="475.2" lengthAdjust="spacing" clip-path="url(#c0)" font-family="Courier New, Menlo, monospace" font-size="24" font-weight="700" fill="#a78bfa">Where math meets machine learning</text>
-<text x="400" y="32" text-anchor="middle" textLength="489.6" lengthAdjust="spacing" clip-path="url(#c1)" font-family="Courier New, Menlo, monospace" font-size="24" font-weight="700" fill="#a78bfa">Teaching machines to find patterns</text>
-<text x="400" y="32" text-anchor="middle" textLength="417.6" lengthAdjust="spacing" clip-path="url(#c2)" font-family="Courier New, Menlo, monospace" font-size="24" font-weight="700" fill="#a78bfa">Turning data into predictions</text>
-<text x="400" y="32" text-anchor="middle" textLength="446.4" lengthAdjust="spacing" clip-path="url(#c3)" font-family="Courier New, Menlo, monospace" font-size="24" font-weight="700" fill="#a78bfa">Learning ML one model at a time</text>
+  <text x="400" y="32" text-anchor="middle" font-family="Courier New, Menlo, monospace" font-size="24" font-weight="700" fill="#a78bfa">Where math meets machine learning
+    <animate attributeName="opacity" dur="16s" repeatCount="indefinite" keyTimes="0;0.03;0.22;0.25;1" values="0;1;1;0;0"/>
+  </text>
+  <text x="400" y="32" text-anchor="middle" font-family="Courier New, Menlo, monospace" font-size="24" font-weight="700" fill="#a78bfa" opacity="0">Teaching machines to find patterns
+    <animate attributeName="opacity" dur="16s" repeatCount="indefinite" keyTimes="0;0.25;0.28;0.47;0.5;1" values="0;0;1;1;0;0"/>
+  </text>
+  <text x="400" y="32" text-anchor="middle" font-family="Courier New, Menlo, monospace" font-size="24" font-weight="700" fill="#a78bfa" opacity="0">Turning data into predictions
+    <animate attributeName="opacity" dur="16s" repeatCount="indefinite" keyTimes="0;0.5;0.53;0.72;0.75;1" values="0;0;1;1;0;0"/>
+  </text>
+  <text x="400" y="32" text-anchor="middle" font-family="Courier New, Menlo, monospace" font-size="24" font-weight="700" fill="#a78bfa" opacity="0">Learning ML one model at a time
+    <animate attributeName="opacity" dur="16s" repeatCount="indefinite" keyTimes="0;0.75;0.78;0.97;1" values="0;0;1;1;0"/>
+  </text>
 </svg>
